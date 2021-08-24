@@ -82,4 +82,10 @@ Post파일에서 WritePost컴포넌트를 쓴다고 했을 때, WritePost의 데
 ! 어쩄든 쪼갠(slice된 reducer들) 애들을 하나의 파일에다가 불러오면 각각의 reducerslice들은 각각이 맡은 global state를 관장한다. 
 ! 기본적으로 React관련 된 애들은 기능 별로 작은 단위로 쪼개는 것을 좋아하는 것 같다. 때문에 처음 앱을 디자인 할 때 기능 별로 쪼갤 수 있는 건 쪼개서 분류를 하고 기능을 구별하는 게 중요한듯.
 ! 그런데 이 귀찮은 것들을 쉽게 만들어주는 녀석이 있다. terminal에서 npm install redux를 하고, root reducer 파일에서 combineReducers를 import하면 된다. 자세한 건 검색 ㄱ
-! 
+
+# 6일차
+! npm은 pakage manager다. 그래서 뭔 패키지만 깔려 하면 terminal에다가 npm install 잇찌랄 하는 거였다.
+! material-ui는 npm이 가지고 있는 여러 패키지들 중 하나다. 필요한 UI들을 가져다 쓸 수 있는 api다. 기본적인 다운로드는 terminal에다가 npm install @material-ui/core 하면 된다. 잘 모르겠으면 공식 사이트에서 검색해도 된다.
+! component api에 어떻게 불러오는지, component에 어떻게 쓰는지 나와있다.
+! React에서 차라리 material-ui의 Button 컴포넌트를 사용해서 text button형식으로 마치 게시판의 글을 클릭하면 들어갈 수 있도록 하는 형식의 구현을 할 수 있다. 따로 뭐 text그 자체에다가 a태그를 걸어서 링크를 주는 것보다 차라리 text button을 이용해 해당 text를 클릭했을 때, modal이 열리도록 하는 것도 꽤나 깔끔한 방법 같다... 아마도?
+!  
