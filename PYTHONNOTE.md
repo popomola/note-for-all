@@ -37,3 +37,6 @@
 ! matplotlib는 기본 영문 폰트를 쓴다. 때문에 한글 인식이 안 된다. 이를 해결하기 위해
 plt.rc('font', family='Malgun Gothic') 이 코드를 plt.show() 전에 붙여쓰자.
 ! 
+
+# 머신러닝
+! 
