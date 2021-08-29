@@ -38,7 +38,10 @@
 ! matplotlib는 기본 영문 폰트를 쓴다. 때문에 한글 인식이 안 된다. 이를 해결하기 위해
 plt.rc('font', family='Malgun Gothic') 이 코드를 plt.show() 전에 붙여쓰자.
 ! matplotlib.pyplot.hist는 데이터의 수가 작을 때는 뭔가 왜곡?이 일어난다. 때문에 np.histogram을 이용하는 편이 낫다.
+<<<<<<< HEAD
 ! matplotlib.pyplot.plot은 선 또는 마커를 그리기 위한 기초적인 함수다. plot에 대한 자세한 것은 검색 ㄱ. 매개변수로 받을 수 있는 형태가 굉장히 다양하다.
+=======
+>>>>>>> 7264bc2e93a420fab461d56a5363ff7528d21c3d
 ! 
 
 # 머신러닝
