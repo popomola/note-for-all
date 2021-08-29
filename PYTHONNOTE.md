@@ -38,10 +38,17 @@
 ! matplotlib는 기본 영문 폰트를 쓴다. 때문에 한글 인식이 안 된다. 이를 해결하기 위해
 plt.rc('font', family='Malgun Gothic') 이 코드를 plt.show() 전에 붙여쓰자.
 ! matplotlib.pyplot.hist는 데이터의 수가 작을 때는 뭔가 왜곡?이 일어난다. 때문에 np.histogram을 이용하는 편이 낫다.
-<<<<<<< HEAD
 ! matplotlib.pyplot.plot은 선 또는 마커를 그리기 위한 기초적인 함수다. plot에 대한 자세한 것은 검색 ㄱ. 매개변수로 받을 수 있는 형태가 굉장히 다양하다.
-=======
->>>>>>> 7264bc2e93a420fab461d56a5363ff7528d21c3d
+! matplotlib.pyplot 모듈의 xlabel, ylabel 함수를 사용하면 그래프의 x, y 축에 대한 레이블을 표시할 수 있다. loc은 위치지정. fontdict 매개변수도 있다. 검색 ㄱ 혹은 파이썬 노트 참고
+! matplotlib.pyplot.legend는 범례를 표현한다. 검색 ㄱ 혹은 파이썬 노트 참고
+! matplotlib.pyplot 모듈에는 xlim, ylim을 통해 보여지는 축의 범위를 지정할 수 있다. 혹은 axis를 써도 된다.
+! matplotlib에서 선 종류는 plot함수 안에서 매개변수를 통해 지정한다. 이 종류 지정하는 것도 방법이 여러 가진데... 굳이 그럴 필요가 있나 싶은 것도 있다. 자동화를 위해서 있는 건가?
+! matplotlib에서 선의 끝?도 plot에서 매개변수로 지정할 수 있다... plot의 매개변수가 꽤나 많다.
+! matplotlib에서 마커도 plot으로 한다... 아주 무시무시한 plot이다. 일례로 'bo'는 blue circle을 그래프 상에서 표시한다. 'bo-'는 마커 사이의 공간을 선으로 연결시킨다.
+! matplotlib에서 색상 지정도 plot으로.
+! matplotlib에서 plot(color, marker, linestyle)으로 하면 색상, 마커, 선 스타일 삼위일체로 할 수 있다. 대박
+! matplotlib에서 fill_between을 쓰면 그래프의 아래의 영역을 채워준다.
+! matplotlib에서 그래프 상에 수평선을 그리려면 axhline 혹은 hlines 수직선을 그리려면 xvline 또는 vlines 사용 매개변수는 검색 ㄱ 혹은 파이썬 노트 참고
 ! 
 
 # 머신러닝
