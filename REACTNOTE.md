@@ -88,4 +88,6 @@ Post파일에서 WritePost컴포넌트를 쓴다고 했을 때, WritePost의 데
 ! material-ui는 npm이 가지고 있는 여러 패키지들 중 하나다. 필요한 UI들을 가져다 쓸 수 있는 api다. 기본적인 다운로드는 terminal에다가 npm install @material-ui/core 하면 된다. 잘 모르겠으면 공식 사이트에서 검색해도 된다.
 ! component api에 어떻게 불러오는지, component에 어떻게 쓰는지 나와있다.
 ! React에서 차라리 material-ui의 Button 컴포넌트를 사용해서 text button형식으로 마치 게시판의 글을 클릭하면 들어갈 수 있도록 하는 형식의 구현을 할 수 있다. 따로 뭐 text그 자체에다가 a태그를 걸어서 링크를 주는 것보다 차라리 text button을 이용해 해당 text를 클릭했을 때, modal이 열리도록 하는 것도 꽤나 깔끔한 방법 같다... 아마도?
-!  
+
+# 7일차
+
